@@ -218,6 +218,7 @@ IPAddr = socket.gethostbyname(hostname)
 
 # root definition
 root = Tk()
+root.title("FileSharing")
 root.configure(background='black')
 client_or_server_var = IntVar()
 
